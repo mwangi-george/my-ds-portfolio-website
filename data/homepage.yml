@@ -1,0 +1,205 @@
+head:
+  title: "George Mwangi's Data Science Portfolio"
+theme: "raditian-free-hugo-theme-data-science"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m George Mwangi."
+  subtitle: "Data Scientist/Shiny Developer"
+  description: "Greetings! I am Mwangi George, a dedicated Data Scientist and Shiny Developer hailing from Nairobi, Kenya, on a mission to unlock the secrets hidden within complex datasets and translate them into actionable strategies."
+  image:
+    x: "img/showcase/time_series.gif"
+  imageMobile:
+    x: "img/showcase/time_series.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact George"
+    URL: "mailto:mwangigeorge648@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/georgemwangikenya"
+
+    - icon: "github"
+      URL: "https://github.com/mwangi-george"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/mwangi__george"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I enjoy applying data science in my work.</strong>  Using the R programming language to address data-related problems
+    is my passion. When I am not writing R code, I like to go on long walks and hang out with friends.
+    </p>
+    <p class="lead">
+    <strong>My area of competence</strong> is enterprise data science applications. 
+    I add value for businesses by developing and deploying data science solutions aimed at improving operational effectiveness.
+    I like learning, engaging stakeholders, and using data to inform better decisions.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/georgemwangikenya"
+  image:
+    x: "img/who-am-i/dp.jpg"
+    _2x: "img/who-am-i/dp.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "I spearhead the design and implementation of cutting-edge data science products dedicated to enhancing operational efficiency within, but not limited to, healthcare sector supply chain projects. I adeptly utilize advanced Artificial Intelligence methodologies and automation techniques to optimize and streamline processes. This results in significant improvements in project timelines and resource utilization. Collaborating closely with cross-functional teams, I actively identify key pain points and swiftly develop tailored solutions. My ability to rapidly grasp complex challenges and leverage innovative approaches within a short time frame underscores my commitment to driving impactful change within organizations."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/georgemwangikenya"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://georgengugi.netlify.app/content/CV.pdf"
+
+  items:
+    - title: "Artificial Intelligence & Data Associate"
+      company: "inSupply Health Ltd"
+      duration: "June 2023 - Present"
+
+    - title: "Artificial Intelligence & Data Intern"
+      company: "inSupply Health Ltd"
+      duration: "Mar 2023 - June 2023"
+      
+    - title: "Freelance Writer"
+      company: "Self Employed"
+      duration: "Jan 2021 - Mar 2023"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Kenyatta University"
+      year: "2018-2022"
+      degree: "Bachelor of Economics and Statistics"
+
+    - university: "DataCamp"
+      year: "2022-Present"
+      degree: "Data Science with R"
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Shiny as an Enterprise BI Tool"
+      description: "This application helps dairy farmers from over 15 locations in India analyze the performance of dairy farms based on location, land area, and cow population and other factors. I developed this application to learn software development best practices."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://smartpath.shinyapps.io/DairySalesAnalysisV1/"
+      image:
+        x: "img/works/dash.gif"
+        _2x: "img/works/dash.gif"
+      is_even: false
+    - title: "AirLabs NearBy API"
+      description: "Discover nearby airports effortlessly! This app, powered by AirLabs NearBy API, swiftly locates the closest departure airport or lists all within a specified radius. Effortless travel planning made simple—find your next takeoff point with ease!"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://smartpath.shinyapps.io/AirLabsNearByAPI/"
+      image:
+        x: "img/works/airlabs.jpg"
+        _2x: "img/works/airlabs.jpg"
+      is_even: true
+   
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+  
+    - name: "Grace Maina"
+      position: "Data Analyst"
+      content: "George, a skilled data scientist fluent in the R language, excels in crafting dynamic visualizations through Shiny apps. His expertise spans advanced analytics and machine learning."      
+      image:
+        x: "img/testimonials/grace-maina_2.jpg"
+        _2x: "img/testimonials/grace-maina_2.jpg"
+        
+    - name: "Daniel Ogega"
+      position: "Business Development Manager, Daylight Adventures & Safaris"
+      content: "Knowing George for 5+ years, I've witnessed his impressive journey into Data Science. His innovations consistently elevate projects, adding immense value to any team."
+      image:
+        x: "img/testimonials/dan.jpg"
+        _2x: "img/testimonials/dan.jpg"
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact George"
+    
+  image:
+    x: "img/who-am-i/dp.jpg"
+    _2x: "img/who-am-i/dp.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:mwangigeorge648@gmail.com'
+     
+  phone:
+    title: "Phone Number"
+    number: "(+254) 748 177 880"
+  email:
+    title: "Email"
+    email: '<a href="mailto:mwangigeorge648@gmail.com">mwangigeorge648@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Nairobi,Kenya"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
