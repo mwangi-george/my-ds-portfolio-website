@@ -62,8 +62,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "https://georgengugi.netlify.app/content/CV.pdf"
-
+    URL: "img/showcase/my_cv.pdf"
   items:
     - title: "Artificial Intelligence & Data Associate"
       company: "inSupply Health Ltd"
