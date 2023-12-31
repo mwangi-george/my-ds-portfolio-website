@@ -133,7 +133,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
-        URL: "https://smartpath.shinyapps.io/DairySalesAnalysisV1/"
+        URL: "https://gmwangi.shinyapps.io/DairySalesAnalysisV1/"
       image:
         x: "img/works/dash.gif"
         _2x: "img/works/dash.gif"
@@ -143,7 +143,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
-        URL: "https://smartpath.shinyapps.io/AirLabsNearByAPI/"
+        URL: "https://gmwangi.shinyapps.io/AirLabsNearByAPI/"
       image:
         x: "img/works/airlabs.jpg"
         _2x: "img/works/airlabs.jpg"
