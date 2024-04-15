@@ -62,7 +62,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "img/showcase/my_cv.pdf"
+    URL: "img/showcase/Mwangi-George-Resume.pdf"
   items:
     - title: "Artificial Intelligence & Data Associate"
       company: "inSupply Health Ltd"
