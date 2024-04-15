@@ -144,6 +144,16 @@ client_and_work:
         x: "img/works/airlabs.jpg"
         _2x: "img/works/airlabs.jpg"
       is_even: true
+    - title: "Time Series Forecasting App"
+      description: "This application simplifies time series forecasting. Users upload data, customize forecast horizons, and select from models like XGBoost, ARIMA, or Prophet. It then swiftly generates forecasts and compares them using MAPE, enabling informed decisions."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://g-mwangi.shinyapps.io/Shinyapp-Showcase/"
+      image:
+        x: "img/works/forecasting_app.jpg"
+        _2x: "img/works/forecasting_app.jpg"
+      is_even: false
    
 
 # testimonial
